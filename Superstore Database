@@ -31,19 +31,23 @@ VALUES
 #Write a statement that orders the items by price 
 SELECT (item_name),price
 FROM superstore
-ORDER BY price;
+ORDER BY price
+;
 
 #Write a statement that statistic about the price for items in the category of "Electronics"
 SELECT AVG (price)
 FROM superstore 
-WHERE category="Electronics";
+WHERE category="Electronics"
+;
 
 Write a statement that statistic about the price for items in the category of "Kitchen Supplies"
 SELECT SUM(price)
 FROM superstore 
-WHERE category="Kitchen Supplies";
+WHERE category="Kitchen Supplies"
+;
 
 #Show a statement calculation the quantity of "Wireless Bluetooth Speakers"
 SELECT SUM (stock_quantity)
 FROM superstore
-WHERE item_name="Wireless Bluetooth Speaker";
+WHERE item_name="Wireless Bluetooth Speaker"
+;
